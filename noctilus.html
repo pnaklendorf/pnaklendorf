@@ -17,6 +17,7 @@
 <meta name="twitter:title" content="NOCTILUS: Life and Oneiric Works of Eric Krause">
 <meta name="twitter:description" content="An anthology by Ricardo Meyer.">
 <meta name="twitter:image" content="https://pnaklendorf.com/noctilus.jpg">
+
 <title>NOCTILUS: Life and Oneiric Works of Eric Krause</title>
 
 <link rel="icon" type="image/png" href="eldersign.png">
@@ -121,7 +122,26 @@ footer{
     margin-top:auto;
     padding-top:60px;
     display:flex;
+    flex-direction:column;
     justify-content:center;
+    align-items:center;
+    gap:14px;
+}
+
+.footer-logo{
+    width:72px;
+    height:auto;
+    opacity:.9;
+    transition:opacity .25s ease, transform .25s ease;
+}
+
+.footer-logo:hover{
+    opacity:1;
+    transform:scale(1.05);
+}
+
+.footer-copy{
+    display:flex;
     align-items:center;
     gap:10px;
     color:#bdbdbd;
@@ -148,8 +168,8 @@ footer{
     </div>
 
     <div class="cover-space">
-      FABIEN  PALMARI IS DOING THE COVER
-      COME BACK ON AUGUST 15
+        FABIEN PALMARI IS DOING THE COVER<br>
+        COME BACK ON AUGUST 15
     </div>
 
     <main>
@@ -172,8 +192,16 @@ footer{
     </main>
 
     <footer>
-        <span>&copy;</span>
-        <span>All Rights Reserved.</span>
+
+        <a href="https://pnaklendorf.com/" target="_blank" rel="noopener noreferrer">
+            <img src="sellotindalos-asinnart.png" alt="Pnaklendorf" class="footer-logo">
+        </a>
+
+        <div class="footer-copy">
+            <span>&copy;</span>
+            <span>All Rights Reserved.</span>
+        </div>
+
     </footer>
 
 </div>
