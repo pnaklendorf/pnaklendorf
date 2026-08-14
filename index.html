@@ -85,6 +85,7 @@
 
 <meta name="twitter:image:alt" content="El País de Pnaklendorf">
 
+
 <!-- JSON-LD -->
 
 <script type="application/ld+json">
@@ -117,6 +118,7 @@
 }
 
 </script>
+
 
 <style>
 
@@ -208,15 +210,20 @@ hr {
 
 
 
+/* Contenedor principal de las dos secciones */
+
 table {
 
     width: 100%;
 
-    border-collapse: collapse;
+    border-collapse: separate;
+
+    border-spacing: 0 0;
 
     margin-top: 20px;
 
 }
+
 
 
 td {
@@ -228,6 +235,41 @@ td {
     text-align: center;
 
 }
+
+
+
+/* Columna izquierda */
+
+td:first-child {
+
+    width: 55%;
+
+    text-align: left;
+
+    padding-left: 0;
+
+    padding-right: 35px;
+
+}
+
+
+
+/* Columna derecha */
+
+td:nth-child(2) {
+
+    width: 45%;
+
+    text-align: right;
+
+    padding-left: 35px;
+
+    padding-right: 0;
+
+}
+
+
+
 img {
 
     max-width: 100%;
@@ -245,6 +287,26 @@ h2 {
 
 
 
+/* Banners */
+
+.banner {
+
+    display: block;
+
+    width: 300px;
+
+    max-width: 100%;
+
+    margin-left: auto;
+
+    margin-right: 0;
+
+    margin-bottom: 25px;
+
+}
+
+
+
 /* Redes sociales */
 
 .social {
@@ -253,7 +315,7 @@ h2 {
 
     flex-direction: column;
 
-    align-items: flex-start;
+    align-items: flex-end;
 
     gap: 10px;
 
@@ -270,6 +332,8 @@ h2 {
     flex-direction: row;
 
     align-items: center;
+
+    justify-content: flex-end;
 
     gap: 10px;
 
@@ -297,7 +361,6 @@ h2 {
 
 @media (max-width: 800px) {
 
-
     body {
 
         background: #000;
@@ -323,10 +386,46 @@ h2 {
 
     td {
 
+        width: 100% !important;
+
+        box-sizing: border-box;
+
+        text-align: center !important;
+
+        padding: 10px 0 !important;
+
+    }
+
+
+    td:first-child,
+    td:nth-child(2) {
+
         width: 100%;
 
     }
 
+
+    .banner {
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+
+    .social {
+
+        align-items: center;
+
+    }
+
+
+    .social a {
+
+        justify-content: center;
+
+    }
 
 }
 
@@ -378,7 +477,7 @@ h2 {
         </a>
 
         |
-      
+
         <a href="https://ligotti.net/index.php?resources/shangri-la-93-ghizguth-mythos.2/">
             SHANGRI-LA 93: GHIZGUTH MYTHOS
         </a>
@@ -412,6 +511,7 @@ h2 {
 
 
 <td>
+
 <h2>DESCARGAS</h2>
 
 
@@ -421,13 +521,13 @@ h2 {
 
 <p><a href="RefugioBizarro3.pdf">RefugioBizarro #3</a></p>
 
-<p><a href="RefugioBizarro4.pdf">Refugio Bizarro #4</a></p>
+<p><a href="RefugioBizarro4.pdf">RefugioBizarro #4</a></p>
 
-<p><a href="RefugioBizarro5.pdf">Refugio Bizarro #5</a></p>
+<p><a href="RefugioBizarro5.pdf">RefugioBizarro #5</a></p>
 
-<p><a href="RefugioBizarro6.pdf">Refugio Bizarro #6</a></p>
+<p><a href="RefugioBizarro6.pdf">RefugioBizarro #6</a></p>
 
-<p><a href="RefugioBizarro7.pdf">Refugio Bizarro #7</a></p>
+<p><a href="RefugioBizarro7.pdf">RefugioBizarro #7</a></p>
 
 
 
@@ -504,21 +604,24 @@ La Voz de las Profundidades — Yuke Kabula
 <td>
 
 
-
 <a href="https://www.ligotti.net/index.php?members/r-von-pnaklendorf.5048/">
 
-<img src="nightmare_banner.jpg" width="300" alt="Ricardo Meyer on Thomas Ligotti Online">
+<img class="banner"
+     src="nightmare_banner.jpg"
+     width="300"
+     alt="Ricardo Meyer on Thomas Ligotti Online">
 
 </a>
+
 
 <a href="https://lovecraft.fandom.com/wiki/Ricardo_Meyer">
 
-<img src="HPlovecraftwiki.jpg" width="300" alt="Ricardo Meyer on The H.P. Lovecraft Wiki">
+<img class="banner"
+     src="HPlovecraftwiki.jpg"
+     width="300"
+     alt="Ricardo Meyer on The H.P. Lovecraft Wiki">
 
 </a>
-
-
-<br><br><br><br>
 
 
 <h2>Social</h2>
@@ -562,22 +665,29 @@ La Voz de las Profundidades — Yuke Kabula
 </div>
 
 
+
 </td>
+
 
 
 </tr>
 
 
+
 </table>
+
 
 
 </main>
 
 
+
 <footer>
 
 
+
 <hr>
+
 
 
 <p>
@@ -593,6 +703,7 @@ meyer@pnaklendorf.com
 </a>
 
 </p>
+
 
 
 </footer>
