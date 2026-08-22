@@ -1,85 +1,88 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
 
-<meta http-equiv="Content-Language" content="en">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
 <title>PNAKLENDORF MYTHOS - The Cthulhu Mythos of Ricardo Meyer</title>
-
 
 <meta name="description" content="Pnaklendorf Mythos - The Cthulhu Mythos of Ricardo Meyer">
 
 <meta name="author" content="Ricardo Meyer Manríquez">
 
-
 <link rel="canonical" href="https://pnaklendorf.com/">
 
 <meta name="theme-color" content="#000000">
 
-
 <link rel="icon" type="image/png" href="https://pnaklendorf.com/eldersign.png">
-
 
 <!-- Open Graph -->
 
 <meta property="og:type" content="website">
-
 <meta property="og:site_name" content="Pnaklendorf Mythos">
-
 <meta property="og:locale" content="en_US">
 
 <meta property="og:title" content="Pnaklendorf Mythos ☄️">
 
-<meta property="og:description" content="The Cthulhu Mythos of Ricardo Meyer.">
+<meta property="og:description"
+   content="The Cthulhu Mythos of Ricardo Meyer.">
 
-<meta property="og:url" content="https://pnaklendorf.com/">
+<meta property="og:url"
+   content="https://pnaklendorf.com/">
 
+<meta property="og:image"
+   content="https://pnaklendorf.com/Victory.jpg?v=3">
 
-<!-- Open Graph Image -->
+<meta property="og:image:secure_url"
+   content="https://pnaklendorf.com/Victory.jpg?v=3">
 
-<meta property="og:image" content="https://pnaklendorf.com/Victory.jpg?v=3">
+<meta property="og:image:type"
+   content="image/jpeg">
 
-<meta property="og:image:secure_url" content="https://pnaklendorf.com/Victory.jpg?v=3">
+<meta property="og:image:width"
+   content="2267">
 
-<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:height"
+   content="1600">
 
-<meta property="og:image:width" content="2267">
-
-<meta property="og:image:height" content="1600">
-
-<meta property="og:image:alt" content="Pnaklendorf Mythos">
-
-
+<meta property="og:image:alt"
+   content="Pnaklendorf Mythos">
 
 <!-- Twitter / X -->
 
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card"
+   content="summary_large_image">
 
-<meta name="twitter:site" content="@PaterDagon">
+<meta name="twitter:site"
+   content="@PaterDagon">
 
-<meta name="twitter:creator" content="@PaterDagon">
+<meta name="twitter:creator"
+   content="@PaterDagon">
 
-<meta name="twitter:url" content="https://pnaklendorf.com/">
+<meta name="twitter:url"
+   content="https://pnaklendorf.com/">
 
-<meta name="twitter:title" content="Pnaklendorf Mythos ☄️">
+<meta name="twitter:title"
+   content="Pnaklendorf Mythos ☄️">
 
-<meta name="twitter:description" content="The Cthulhu Mythos of Ricardo Meyer.">
+<meta name="twitter:description"
+   content="The Cthulhu Mythos of Ricardo Meyer.">
 
-<meta name="twitter:image" content="https://pnaklendorf.com/Victory.jpg?v=3">
+<meta name="twitter:image"
+   content="https://pnaklendorf.com/Victory.jpg?v=3">
 
-<meta name="twitter:image:width" content="2267">
+<meta name="twitter:image:width"
+   content="2267">
 
-<meta name="twitter:image:height" content="1600">
+<meta name="twitter:image:height"
+   content="1600">
 
-<meta name="twitter:image:alt" content="Pnaklendorf Mythos">
-
-
+<meta name="twitter:image:alt"
+   content="Pnaklendorf Mythos">
 
 <!-- JSON-LD -->
 
@@ -114,245 +117,116 @@
 
 </script>
 
-
-
 <style>
 
 body {
-
     background: #000;
-
     color: #ccc;
-
     font-family: "Times New Roman", serif;
-
     margin: 0;
-
     padding: 0;
-
     line-height: 1.6;
-
 }
-
 
 
 .page {
-
     width: 800px;
-
     max-width: 100%;
-
     margin: 0 auto;
-
     background: #000;
-
     min-height: 100vh;
-
 }
-
 
 
 a {
-
     color: #c8a96a;
-
     text-decoration: none;
-
     transition: all 0.3s ease;
-
 }
-
 
 
 a:visited {
-
     color: #999;
-
 }
-
 
 
 a:hover {
-
     color: #fff;
-
 }
-
 
 
 header,
 main,
 footer {
-
     padding: 20px;
-
     text-align: center;
-
 }
-
 
 
 hr {
-
     width: 600px;
-
     max-width: 90%;
-
     border: 1px solid #666;
-
     margin: 20px auto;
-
 }
-
-
-
-/* Main two-column layout */
-
-table {
-
-    width: 100%;
-
-    border-collapse: separate;
-
-    border-spacing: 0 0;
-
-    margin-top: 20px;
-
-}
-
-
-
-td {
-
-    vertical-align: top;
-
-    padding: 10px;
-
-    text-align: center;
-
-}
-
-
-
-/* Left column */
-
-td:first-child {
-
-    width: 55%;
-
-    text-align: left;
-
-    padding-left: 0;
-
-    padding-right: 35px;
-
-}
-
-
-
-/* Right column */
-
-td:nth-child(2) {
-
-    width: 45%;
-
-    text-align: right;
-
-    padding-left: 35px;
-
-    padding-right: 0;
-
-}
-
 
 
 img {
-
     max-width: 100%;
-
 }
-
 
 
 h1,
 h2 {
-
     color: #fff;
-
 }
 
+
+/* Main content */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /* Banners */
 
 .banner {
-
     display: block;
-
     width: 300px;
-
     max-width: 100%;
-
-    margin-left: auto;
-
-    margin-right: 0;
-
-    margin-bottom: 25px;
-
+    margin: 0 auto 25px auto;
 }
 
 
-
-/* Social title */
+/* Social */
 
 .social-title {
-
     width: 300px;
-
     max-width: 100%;
-
-    margin-left: auto;
-
-    margin-right: 0;
-
+    margin: 10px auto;
     text-align: left;
-
 }
 
 
-
-/* Social media */
-
 .social {
-
     width: 300px;
-
     max-width: 100%;
-
-    margin-left: auto;
-
-    margin-right: 0;
+    margin: 10px auto 0 auto;
 
     display: flex;
-
     flex-direction: column;
-
     align-items: flex-start;
 
     gap: 10px;
-
-    margin-top: 10px;
-
 }
 
 
-
 .social a {
-
     display: flex;
-
     flex-direction: row;
-
     align-items: center;
 
     gap: 10px;
@@ -360,15 +234,11 @@ h2 {
     width: 100%;
 
     justify-content: flex-start;
-
 }
 
 
-
 .social img {
-
     width: 24px;
-
     height: 24px;
 
     border: 1px solid white;
@@ -378,102 +248,22 @@ h2 {
     background: #000;
 
     flex-shrink: 0;
-
 }
-
 
 
 .social span {
-
     text-align: left;
-
 }
 
 
-
-/* Mobile layout */
+/* Mobile */
 
 @media (max-width: 800px) {
 
-    body {
-
-        background: #000;
-
-    }
-
-
-    table {
-
-        display: block;
-
-    }
-
-
-    tr {
-
-        display: flex;
-
-        flex-direction: column;
-
-    }
-
-
-    td {
-
-        width: 100% !important;
-
-        box-sizing: border-box;
-
-        text-align: center !important;
-
-        padding: 10px 0 !important;
-
-    }
-
-
-    td:first-child,
-    td:nth-child(2) {
-
-        width: 100%;
-
-    }
-
-
-    .banner {
-
-        margin-left: auto;
-
-        margin-right: auto;
-
-    }
-
-
-    .social-title {
-
-        margin-left: auto;
-
-        margin-right: auto;
-
-        text-align: left;
-
-    }
-
-
-    .social {
-
-        margin-left: auto;
-
-        margin-right: auto;
-
-        align-items: flex-start;
-
-    }
-
-
-    .social a {
-
-        justify-content: flex-start;
-
+    header,
+    main,
+    footer {
+        padding: 20px 10px;
     }
 
 }
@@ -482,292 +272,148 @@ h2 {
 
 </head>
 
-
-
 <body>
-
 
 <div class="page">
 
-
-
 <header>
 
+<img src="Pnaklendorf.png"
+  alt="Pnaklendorf"
+  width="220">
 
+<h1>PNAKLENDORF MYTHOS</h1>
 
-    <img src="Pnaklendorf.png" alt="Pnaklendorf" width="220">
+<p>
+    Welcome to <b>Pnaklendorf Mythos</b>,
+    the Cthulhu Mythos of Ricardo Meyer.
+</p>
 
+<p>
+    <i>Homo sum, humani nihil a me alienum puto.</i>
+</p>
 
+<hr>
 
-    <h1>PNAKLENDORF MYTHOS</h1>
+<p>
 
+```
+<a href="refugiobizarro.html">
+    BIZARRE REFUGE
+</a>
 
+|
 
-    <p>
-        Welcome to <b>Pnaklendorf Mythos</b>,
-        the Cthulhu Mythos of Ricardo Meyer.
-    </p>
+<a href="https://ligotti.net/index.php?resources/shangri-la-93-ghizguth-mythos.2/">
+    SHANGRI-LA 93: GHIZGUTH MYTHOS
+</a>
 
+|
 
+<a href="https://pnaklendorf.com/noctilus">
+    NOCTILUS (Coming Soon)
+</a>
+```
 
-    <p>
-        <i>Homo sum, humani nihil a me alienum puto.</i>
-    </p>
+</p>
 
-
-
-    <hr>
-
-
-
-    <p>
-
-        <a href="refugiobizarro.html">
-            BIZARRE REFUGE
-        </a>
-
-        |
-
-        <a href="https://ligotti.net/index.php?resources/shangri-la-93-ghizguth-mythos.2/">
-            SHANGRI-LA 93: GHIZGUTH MYTHOS
-        </a>
-
-        |
-
-        <a href="https://pnaklendorf.com/noctilus">
-            NOCTILUS (Coming Soon)
-        </a>
-
-    </p>
-
-
-
-    <hr>
-
-
+<hr>
 
 </header>
 
-
-
 <main>
-
-
-
-<table>
-
-
-<tr>
-
-
-<td>
-
-<h2>DOWNLOADS</h2>
-
-
-<p><a href="RefugioBizarro1.pdf">Bizarre Refuge #1</a></p>
-
-<p><a href="RefugioBizarro2.pdf">Bizarre Refuge #2</a></p>
-
-<p><a href="RefugioBizarro3.pdf">Bizarre Refuge #3</a></p>
-
-<p><a href="RefugioBizarro4.pdf">Bizarre Refuge #4</a></p>
-
-<p><a href="RefugioBizarro5.pdf">Bizarre Refuge #5</a></p>
-
-<p><a href="RefugioBizarro6.pdf">Bizarre Refuge #6</a></p>
-
-<p><a href="RefugioBizarro7.pdf">Bizarre Refuge #7</a></p>
-
-
-
-<h2>REFERENCES</h2>
-
-
-
-<p>
-
-<a href="https://pnaklendorf.com/breve_sinopsis_vida_reccaredus_magnus.html">
-
-Brief Synopsis of the Life of Reccaredus Magnus
-
-</a>
-
-</p>
-
-
-
-<p>
-
-<a href="https://pnaklendorf.com/historia-liber-veneris.html">
-
-History of the Liber Veneris
-
-</a>
-
-</p>
-
-
-
-<p>
-
-<a href="https://pnaklendorf.com/que-es-pnaklendorf">
-
-What Is Pnaklendorf?
-
-</a>
-
-</p>
-
-
-
-<h2>OTHER AUTHORS</h2>
-
-
-
-<p>
-
-<a href="El_anima_de_la_maquina.pdf">
-
-The Soul of the Machine — Yuke Kabula
-
-</a>
-
-</p>
-
-
-
-<p>
-
-<a href="La%20Voz%20de%20las%20Profundidades.pdf">
-
-The Voice of the Depths — Yuke Kabula
-
-</a>
-
-</p>
-
-
-</td>
-
-
-<td>
-
 
 <a href="https://www.ligotti.net/index.php?members/r-von-pnaklendorf.5048/">
 
+```
 <img class="banner"
      src="nightmare_banner.jpg"
      width="300"
      alt="Ricardo Meyer on Thomas Ligotti Online">
+```
 
 </a>
 
-
-
 <a href="https://lovecraft.fandom.com/wiki/Ricardo_Meyer">
 
+```
 <img class="banner"
      src="HPlovecraftwiki.jpg"
      width="300"
      alt="Ricardo Meyer on The H.P. Lovecraft Wiki">
+```
 
 </a>
 
-
-
-<h2 class="social-title">Social</h2>
-
-
+<h2 class="social-title">
+    Social
+</h2>
 
 <div class="social">
 
-
-
 <a href="https://twitter.com/PaterDagon">
 
-<img src="twitter.png" alt="Twitter">
+```
+<img src="twitter.png"
+     alt="Twitter">
 
-<span>Twitter (X)</span>
+<span>
+    Twitter (X)
+</span>
+```
 
 </a>
-
-
 
 <a href="https://bandcamp.com/pnaklendorf">
 
-<img src="bandcamp.png" alt="Bandcamp">
+```
+<img src="bandcamp.png"
+     alt="Bandcamp">
 
-<span>Bandcamp</span>
+<span>
+    Bandcamp
+</span>
+```
 
 </a>
-
-
 
 <a href="https://www.reddit.com/user/VonPnaklendorf/">
 
-<img src="Reddit.png" alt="Reddit">
+```
+<img src="Reddit.png"
+     alt="Reddit">
 
-<span>Reddit</span>
+<span>
+    Reddit
+</span>
+```
 
 </a>
 
-
-
 </div>
-
-
-
-</td>
-
-
-
-</tr>
-
-
-
-</table>
-
-
 
 </main>
 
-
-
 <footer>
-
-
 
 <hr>
 
-
-
 <p>
 
-&copy; All rights reserved. |
+© All rights reserved. |
 
 Contact:
 
 <a href="mailto:meyer@pnaklendorf.com">
-
-meyer@pnaklendorf.com
-
+    meyer@pnaklendorf.com
 </a>
 
 </p>
 
-
-
 </footer>
-
-
 
 </div>
 
-
-
 </body>
-
-
 
 </html>
