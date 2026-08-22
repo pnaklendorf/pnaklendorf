@@ -8,10 +8,12 @@
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://pnaklendorf.com/Pnaklendorf.png</image:loc>
-      <image:caption>Pnaklendorf Mythos — The Cthulhu Mythos of Ricardo Meyer</image:caption>
-    </image:image>
+       
+<image:image>
+  <image:loc>https://pnaklendorf.com/Pnaklendorf.png</image:loc>
+  <image:caption>Pnaklendorf Mythos — The Cthulhu Mythos of Ricardo Meyer</image:caption>
+</image:image>
+
   </url>
 
   <url>
@@ -19,43 +21,27 @@
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://pnaklendorf.com/Petralogo.png</image:loc>
-      <image:caption>Refugio Bizarro — Colectivo literario</image:caption>
-    </image:image>
-  </url>
 
-  <url>
-    <loc>https://pnaklendorf.com/que-es-pnaklendorf.html</loc>
-    <lastmod>2025-12-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
+<image:image>
+  <image:loc>https://pnaklendorf.com/Petralogo.png</image:loc>
+  <image:caption>Refugio Bizarro — Colectivo literario</image:caption>
+</image:image>
 
-  <url>
-    <loc>https://pnaklendorf.com/historia-liber-veneris.html</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://pnaklendorf.com/breve_sinopsis_vida_reccaredus_magnus.html</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://pnaklendorf.com/noctilus.html</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://pnaklendorf.com/noctilus.jpg</image:loc>
-      <image:caption>NOCTILUS: Life and Oneiric Works of Eric Krause</image:caption>
-    </image:image>
+
+<image:image>
+  <image:loc>https://pnaklendorf.com/noctilus.jpg</image:loc>
+  <image:caption>NOCTILUS: Life and Oneiric Works of Eric Krause</image:caption>
+</image:image>
+
   </url>
 
 </urlset>
+
 
