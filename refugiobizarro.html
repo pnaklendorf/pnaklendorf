@@ -173,6 +173,23 @@ p {
     text-decoration: underline;
 }
 
+/* PROYECTOS */
+
+.projects ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projects li {
+    margin: 0 0 9px;
+}
+
+.projects li::before {
+    content: "> ";
+    color: #aaa;
+}
+
 /* DESTACADOS */
 
 .banner-section {
@@ -189,7 +206,7 @@ p {
 
 .banner-section img {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     width: auto;
     height: auto;
     margin: 0 0 8px;
@@ -318,6 +335,10 @@ footer p {
         max-width: 40%;
     }
 
+    .banner-section img {
+        max-width: 90%;
+    }
+
 }
 
 </style>
@@ -347,13 +368,21 @@ footer p {
 
         <h2>PROYECTOS</h2>
 
-        <p>
-            Revisa
-            <a href="http://refugiobizarro.wikidot.com/" target="_blank">
-                <strong>Bizarropedia</strong>
-            </a>
-            para conocer nuestros proyectos y publicaciones.
-        </p>
+        <ul>
+
+            <li>
+                <a href="http://refugiobizarro.wikidot.com/archivo" target="_blank">
+                    Bizarropedia Originals
+                </a>
+            </li>
+
+            <li>
+                <a href="https://pnaklendorf.com/descargas.html" target="_blank">
+                    Descargas
+                </a>
+            </li>
+
+        </ul>
 
     </div>
 
