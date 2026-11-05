@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
     <loc>https://pnaklendorf.com/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-       
+
     <image:image>
       <image:loc>https://pnaklendorf.com/Pnaklendorf.png</image:loc>
       <image:caption>Pnaklendorf Mythos — The Cthulhu Mythos of Ricardo Meyer</image:caption>
     </image:image>
-
   </url>
 
   <url>
@@ -26,13 +24,17 @@
       <image:loc>https://pnaklendorf.com/Petralogo.png</image:loc>
       <image:caption>Refugio Bizarro — Colectivo literario</image:caption>
     </image:image>
-
   </url>
 
   <url>
     <loc>https://pnaklendorf.com/downloads.html</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://pnaklendorf.com/A%20conversation%20with%20the%20devil.pdf</loc>
     <priority>0.8</priority>
   </url>
 
